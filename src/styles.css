@@ -1,0 +1,67 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.owl-carousel.owl-drag .owl-item {
+    touch-action: pan-y;
+    -webkit-user-select: none;
+    user-select: none;
+    margin: 20px;
+    -webkit-box-shadow: 0px 2px 55px -31px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 2px 55px -31px rgba(0,0,0,1);
+    box-shadow: 0px 2px 55px -31px rgba(0,0,0,1);
+  }
+
+ /* .mat-card-image{
+    display: block;
+ }  */
+
+ .owl-carousel .owl-item img {
+    display: block !important;
+    width: -webkit-fill-available;
+    width: -moz-available;
+}
+.owl-carousel .owl-stage-outer {
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    /* -webkit-transform: translate3d(0,0,0); */
+}
+
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: none;
+    color: #434343;
+    text-decoration: none;
+}
+.owl-theme .owl-nav [class*=owl-]:focus {
+    background: none;
+    color: #434343;
+    text-decoration: none;
+}
+.owl-theme .owl-nav [class*=owl-]:active {
+    outline:none
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+    color: #434343;
+    font-size: 30px;
+    margin: 5px 5px 5px 5px;
+    padding: 4px 7px;
+    background: none;
+    display: inline-flex;
+    cursor: pointer;
+    border-radius: 3px;
+    justify-content: space-around;
+}
+
+/* .owl-theme .owl-nav [class*=owl-] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #D6D6D6;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+} */

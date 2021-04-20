@@ -1,0 +1,55 @@
+ button {
+    font-family: Pacifico;
+    font-size: 18px;
+    font-weight: 500;
+}
+.scrim {
+    
+    position: fixed;
+  top: 0
+}
+
+mat-toolbar{
+  border-radius:2px;
+ position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%
+}
+
+.menu-items{
+  margin-left: auto;
+  margin-right: 120px;
+}
+
+.logo-card{  
+  height: 80px;
+  width: 80px;
+  z-index: 999;
+  background-color: #ffc300;
+  margin: 25px 0px 0px 131px;
+  /* padding-top: 20px; */
+  border: 4px solid white;
+  border-radius: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 16px;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+  background-color: white;
+  -webkit-box-shadow: -4px 4px 5px 0px rgb(0 0 0 / 75%);
+  -moz-box-shadow: -4px 4px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: -4px 4px 5px 0px rgb(0 0 0 / 75%);
+  color: black;
+}

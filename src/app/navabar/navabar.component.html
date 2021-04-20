@@ -1,0 +1,19 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <div>
+      <mat-card class="example-card logo-card">
+        <p style="color: white;">MTN</p>
+      </mat-card>
+    </div>
+    <div>
+      <a mat-button [routerLink]="'/accounts'"> Store </a>
+      <a mat-button [routerLink]="'/create-account'"> Products & Services </a>
+      <a mat-button [routerLink]="'/contacts'"> Help & Support </a>
+    </div>
+    <div class="menu-items">
+      <i class="fa fa-search" aria-hidden="true"></i>
+      <a mat-button [routerLink]="'/create-contact'"> Personal </a>
+      <i class="fa fa-angle-down" aria-hidden="true"></i>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>

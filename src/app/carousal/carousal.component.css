@@ -1,0 +1,13 @@
+.title_card{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.title_card_body{
+  text-align: center;
+}
+
+.icon-size{
+  font-size: 35px;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.inner-card {
+  width: 160px;
+  height: 160px;
+  background-color: blue;
+  height: 160px;
+  background-color: blue;
+  margin: 70px auto;
+  width: 50%;
+  /* border: 3px solid green; */
+  padding: 10px;
+}

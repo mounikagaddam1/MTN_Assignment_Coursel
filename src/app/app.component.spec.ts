@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'carouselExample'`, () => {
+  it(`should have as title 'MTNAssignment'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('carouselExample');
+    expect(app.title).toEqual('MTNAssignment');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('carouselExample app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('MTNAssignment app is running!');
   });
 });

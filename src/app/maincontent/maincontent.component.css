@@ -1,0 +1,26 @@
+.col_class{
+    height: 100vh;
+    background-color: #E7F5F6;
+    margin: 0px 12px;
+    width: 96px;
+}
+
+.col_container{
+    background-color: #D6EAEC;
+}
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1448px;
+    }
+}
+
+
+.curosel_container{
+    position: absolute;
+    z-index: 999;
+    /* margin: 225px; */
+    /* padding: 11%;
+     */
+     /* padding: 5% 0% 0% 0%; */
+}
